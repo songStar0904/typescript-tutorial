@@ -47,10 +47,10 @@ let xcatliu: [string, number] = ['Xcat Liu'];
 ```ts
 let xcatliu: [string, number];
 xcatliu = ['Xcat Liu'];
-xcatliu[1] = 25;
+xcatliu[0] = 25;
 
 // index.ts(2,1): error TS2322: Type '[string]' is not assignable to type '[string, number]'.
-//   Property '1' is missing in type '[string]'.
+//   Property '0' is missing in type '[string]'.
 ```
 
 ## 越界的元素
